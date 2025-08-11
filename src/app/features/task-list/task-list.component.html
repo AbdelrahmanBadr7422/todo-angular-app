@@ -1,0 +1,29 @@
+<div class="container py-5">
+  <div class="card shadow-lg rounded-4">
+    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+      <h4 class="mb-0">My To-Do List</h4>
+      <button class="btn btn-light btn-sm" (click)="clearTasks()">Clear All</button>
+    </div>
+    <div class="card-body">
+      <form [formGroup]="taskForm" (ngSubmit)="addTask()" class="d-flex gap-2 mb-4">
+        <input type="text" class="form-control" placeholder="Enter a task..." formControlName="title">
+        <button type="submit" class="btn btn-success">Add</button>
+      </form>
+
+      <ul class="list-group">
+        <li *ngFor="let task of tasks; let i = index" 
+            class="list-group-item d-flex justify-content-between align-items-center">
+          <span [class.text-decoration-line-through]="task.completed">
+            {{ task.title }}
+          </span>
+          <div class="btn-group btn-group-sm">
+            <button class="btn btn-outline-success" (click)="toggleComplete(i)">
+              {{ task.completed ? 'Undo' : 'Done' }}
+            </button>
+            <button class="btn btn-outline-danger" (click)="deleteTask(i)">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
