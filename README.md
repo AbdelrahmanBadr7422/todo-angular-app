@@ -8,7 +8,7 @@ Features:
 - Mobile-friendly UI.
 
 ## Live Demo
-[Click here to view]([https://USERNAME.github.io/REPO-NAME/](https://abdelrahmanbadr7422.github.io/todo-angular-app/))
+[Click here to view] (https://abdelrahmanbadr7422.github.io/todo-angular-app/)
 
 ## Installation
 ```bash
