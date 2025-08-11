@@ -1,18 +1,38 @@
-# My Angular To-Do List
+# ToDo Task List - Angular Frontend
 
-## Description
-A responsive To-Do List built with Angular.  
-Features:
-- Add, delete, mark tasks as done.
-- Clear all tasks.
-- Mobile-friendly UI.
+## نظرة عامة
+
+تطبيق **ToDo Task List** هو مشروع واجهة مستخدم مبني باستخدام **Angular**، يهدف إلى إدارة المهام اليومية بطريقة سهلة ومنظمة. يتيح للمستخدم إضافة، تعديل، حذف، وتحديد حالة المهام بكل سهولة عبر واجهة حديثة ومتجاوبة.
+
+---
 
 ## Live Demo
 [Click here to view] (https://abdelrahmanbadr7422.github.io/todo-angular-app/)
 
-## Installation
-```bash
-git clone https://github.com/USERNAME/REPO-NAME.git
-cd REPO-NAME
-npm install
-ng serve
+---
+## الميزات
+
+- إضافة مهام جديدة.
+- تعديل المهام الحالية.
+- حذف المهام.
+- تمييز المهام كمكتملة.
+- تصميم متجاوب يعمل على مختلف الأجهزة.
+- مبني باستخدام Angular مع TypeScript.
+
+---
+
+## التقنيات المستخدمة
+
+- Angular
+- TypeScript
+- HTML5
+- CSS3
+
+---
+
+## طريقة التشغيل محليًا
+
+1. تأكد من تثبيت Node.js و npm.
+2. استنساخ المشروع:
+   ```bash
+   git clone https://github.com/username/repo-name.git
