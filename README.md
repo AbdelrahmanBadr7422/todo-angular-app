@@ -35,4 +35,4 @@
 1. تأكد من تثبيت Node.js و npm.
 2. استنساخ المشروع:
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/AbdelrahmanBadr7422/todo-angular-app
